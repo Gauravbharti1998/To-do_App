@@ -1,0 +1,44 @@
+.body{
+  background-color: rgb(184, 159, 159) ;
+  text-align: center;
+  
+}
+.text1{
+  font-family:cursive;
+}
+.text2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.addbtn {
+  background-color: green; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  margin-left: 25px;
+  margin-top: 10px;
+  text-decoration:none;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 3px 6px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */ 
+}
+/* Darker background on mouse-over */
+.addbtn:hover {
+  background-color:yellowgreen;
+}
+
+.delbtn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  margin-left: 25px;
+  margin-bottom: 25px;
+  padding: 3px 6px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.delbtn:hover {
+  background-color: RoyalBlue;
+}
